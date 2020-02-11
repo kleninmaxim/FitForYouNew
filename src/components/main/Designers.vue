@@ -114,6 +114,39 @@
               </div>
             </li>
 
+            <li class="t card_4">
+              <div class="block_card_left">
+                <div class="card_img">
+                  <img src="../../assets/main/Macquin.png" />
+                </div>
+                <div class="card_name">
+                  sdfsdfsfsfsdfsd
+                </div>
+                <div class="card_text">
+                  Дорогие друзья, постоянный количественный рост и сфера нашей
+                  активности представляет собой интересный эксперимент проверки
+                  позиций, занимаемых участниками в отношении поставленных
+                  задач.
+                </div>
+                <router-link to="#3" class="card_saw">
+                  Посмотреть
+                  <img
+                          src="../../assets/svg/Arrow.svg"
+                          alt="Посмотреть"
+                          style="padding-left: 10px"
+                  />
+                </router-link>
+              </div>
+              <div class="block_card_right">
+                <div class="" style="position: center">
+                  <img
+                          src="../../assets/main/Westwood.svg"
+                          style="position: center"
+                  />
+                </div>
+              </div>
+            </li>
+
             <div style="clear: both;"></div>
           </ul>
           <!--                    <div class="block_two_cards card_2">
@@ -207,6 +240,10 @@ window.addEventListener(
     var S = document.getElementsByClassName("t").length;
     var k = 1;
     var i = 1;
+
+    if (b === null || f === null || S === null){
+      return false;
+    }
 
     b.onclick = function() {
       i = k;
